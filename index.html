@@ -1,12 +1,178 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agronegócio e Desmatamento: O Desafio do Século</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1200') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        nav {
+            background-color: #2c3e50;
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #27ae60;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        main section {
+            background: #fff;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        main h2 {
+            color: #27ae60;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #27ae60;
+            padding-bottom: 5px;
+        }
+
+        main p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        aside {
+            background-color: #e8f4ec;
+            padding: 25px;
+            border-radius: 8px;
+            height: fit-content;
+        }
+
+        aside h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        aside ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        aside li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
-<h1>Meu blog tech</h1>
-<p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
+
+    <header>
+        <h1>Agronegócio e Desmatamento</h1>
+        <p>Buscando o equilíbrio entre a produção de alimentos e a preservação ambiental.</p>
+    </header>
+
+    <nav>
+        <a href="#introducao">Introdução</a>
+        <a href="#impactos">Impactos</a>
+        <a href="#solucoes">Soluções sustentáveis</a>
+    </nav>
+
+    <div class="container">
+        <main>
+            <section id="introducao">
+                <h2>O Cenário Atual</h2>
+                <p>O agronegócio é um dos principais motores econômicos de muitos países, garantindo a segurança alimentar global e gerando milhões de empregos. No entanto, a expansão desregulada das fronteiras agrícolas tem sido apontada como uma das maiores causas do desmatamento no mundo, especialmente em florestas tropicais.</p>
+                <p>Encontrar o equilíbrio entre produzir alimentos de forma eficiente e proteger a biodiversidade é o maior desafio socioambiental da nossa geração.</p>
+            </section>
+
+            <section id="impactos">
+                <h2>Impactos Ambientais</h2>
+                <p>A substituição de vegetação nativa por pastagens ou monoculturas traz consequências severas para o planeta:</p>
+                <p><strong>Perda de Biodiversidade:</strong> Destruição do habitat natural de milhares de espécies de plantas e animais.</p>
+                <p><strong>Mudanças Climáticas:</strong> A queima e o corte de árvores liberam grandes quantidades de dióxido de carbono ($CO_2$) na atmosfera, acelerando o aquecimento global.</p>
+                <p><strong>Ciclo da Água:</strong> A remoção de florestas altera o regime de chuvas, o que, ironicamente, acaba prejudicando a própria produtividade agrícola no futuro.</p>
+            </section>
+
+            <section id="solucoes">
+                <h2>Caminhos para a Sustentabilidade</h2>
+                <p>Não é necessário parar a produção para salvar as florestas. A tecnologia e as novas práticas agrícolas mostram que é possível produzir de forma consciente:</p>
+                <p><strong>ILPF (Integração Lavoura-Pecuária-Floresta):</strong> Sistema que integra diferentes atividades econômicas em uma mesma área, recuperando o solo e otimizando o espaço.</p>
+                <p><strong>Rastreabilidade de Cadeia:</strong> Empresas e consumidores exigindo carne e grãos que venham exclusivamente de áreas que respeitam o Código Florestal e não praticam o desmatamento ilegal.</p>
+                <p><strong>Aumento de Produtividade:</strong> Produzir mais nas terras que já estão abertas, utilizando tecnologia, defensivos biológicos e manejo inteligente de solo, sem a necessidade de derrubar novas árvores.</p>
+            </section>
+        </main>
+
+        <aside>
+            <h3>Dados Relevantes</h3>
+            <ul>
+                <li>O agronegócio representa uma fatia importante do PIB brasileiro.</li>
+                <li>Mais de 80% do desmatamento global está associado à expansão agrícola.</li>
+                <li>A agricultura regenerativa consegue reter carbono no solo, ajudando a combater o efeito estufa.</li>
+                <li>Florestas em pé geram valor econômico através do mercado de créditos de carbono e bioeconomia.</li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Website Educativo sobre Sustentabilidade e Agronegócio.</p>
+    </footer>
+
 </body>
 </html>
